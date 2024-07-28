@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Clone App</title>
+    <link rel = "stylesheet" href = "index.css">
+</head>
+<body>
+
+    <div class = "one">
+        <div class = "logo">
+            <div class = "container">
+                <p>IMDB_<span>Clone App</span></p>
+            </div>
+        </div>
+
+    
+        <div class = "search-container">
+            <div class = "search-element">            
+                <h2>Search Movie:</h2>
+                <input type = "text" class = "form-control" placeholder="Movie Search" id = "movie-search-box" onkeyup="movie()" onclick = "findMovies()">
+ 
+                <div class = "search-list" id = "search-list">
+                  
+                </div>
+            </div>
+        </div>
+
+        <div class = "container">
+            <div class = "result-container">
+                <div class = "result-grid" id = "result-grid">
+                  
+                </div>
+            </div>
+        </div>
+     
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
